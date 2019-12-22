@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:id="@+id/imgPoster"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#D7FFAC4B"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/movieTitle"
+                android:textColor="@color/black"
+                android:fontFamily="@font/g_bold"
+                android:textSize="20dp"
+                android:text="Joker"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/movieRating"
+                android:textColor="@color/black"
+                android:fontFamily="@font/g_bold"
+                android:textSize="18dp"
+                android:text="7/10"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/movieReleaseDate"
+                android:textColor="@color/black"
+                android:fontFamily="@font/g_bold"
+                android:textSize="18dp"
+                android:text="11/11/19"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:fontFamily="@font/g_bold"
+                android:textSize="18dp"
+                android:text="Summary"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/movieDesc"
+                android:textColor="@color/black"
+                android:fontFamily="@font/g_light"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:text="Movie Desc"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"/>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:fontFamily="@font/g_bold"
+                android:background="@drawable/btn_buy_dark"
+                android:text="Buy Ticket"
+                android:textSize="14dp"
+                android:textAllCaps="false"
+                android:textColor="@color/yellow"
+                android:id="@+id/btnBuyTicket"/>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
