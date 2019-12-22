@@ -1,7 +1,6 @@
 package com.nopalyer.movieapp.Fragments;
 
 import android.os.Bundle;
-import android.telecom.Call;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
